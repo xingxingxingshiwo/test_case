@@ -9,7 +9,6 @@ class Programmer(object):
 
 
 class BrokenProgrammer(Programmer):
-	"""docstring for ClassName"""
 	def __init__(self, name,age):
 		super(BrokenProgrammer, self).__init__(name)
 		self.arg = arg
